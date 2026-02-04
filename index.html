@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ecodiseño Web</title>
+  <title>Periódico Digital</title>
 
   <!-- Tailwind CDN (para prototipos / proyectos educativos) -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -11,44 +11,47 @@
 <body class="bg-gray-50 text-gray-800 font-sans">
 
   <header class="p-6 bg-green-700 text-white">
-    <h1 class="text-2xl font-bold">Ecodiseño Web</h1>
-    <p class="text-sm opacity-90">Página optimizada para bajo consumo</p>
+    <h1 class="text-2xl font-bold">Escorob</h1>
+    <p class="text-sm opacity-90">Noticias actualizadas con enfoque sostenible</p>
   </header>
 
   <main class="max-w-5xl mx-auto p-6 space-y-8">
     <section>
-      <h2 class="text-xl font-semibold mb-2">¿Por qué ecodiseño?</h2>
+      <h2 class="text-xl font-semibold mb-2">Actualidad</h2>
       <p class="leading-relaxed">
-        El ecodiseño web busca reducir el consumo energético optimizando recursos,
-        evitando dependencias innecesarias y mejorando el rendimiento.
+        Nuestro periódico digital informa sobre los acontecimientos más relevantes
+        a nivel local, nacional e internacional, apostando por un periodismo responsable.
       </p>
     </section>
 
     <section>
-      <h2 class="text-xl font-semibold mb-4">Imágenes optimizadas</h2>
+      <h2 class="text-xl font-semibold mb-4">Noticias destacadas</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <img src="images/imagen1.webp" loading="lazy" class="rounded shadow" alt="Imagen 1">
-        <img src="images/imagen2.webp" loading="lazy" class="rounded shadow" alt="Imagen 2">
-        <img src="images/imagen3.webp" loading="lazy" class="rounded shadow" alt="Imagen 3">
+        <img src="images/imagen1.webp" loading="lazy" class="rounded shadow" alt="Noticia destacada 1">
+        <img src="images/imagen2.webp" loading="lazy" class="rounded shadow" alt="Noticia destacada 2">
+        <img src="images/imagen3.webp" loading="lazy" class="rounded shadow" alt="Noticia destacada 3">
       </div>
     </section>
     </main>
+
     <section class="p-5 border-b border-gray-300">
-        <button id="boton"
-          class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-          Ejecutar proceso no pesado
-        </button>
-      </section>
+      <button id="boton"
+        class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+        Cargar últimas noticias
+      </button>
+    </section>
 
-      <section class="p-5 border-b border-gray-300">
-        <h2 class="text-xl font-semibold mb-4">Listados</h2>
-        <ul id="list" class="list-disc pl-5"></ul>
-      </section>
+    <section class="p-5 border-b border-gray-300">
+      <h2 class="text-xl font-semibold mb-4">Titulares</h2>
+      <ul id="list" class="list-disc pl-5"></ul>
+    </section>
 
-    </main>
+  </main>
+
   <footer class="p-4 text-center text-sm text-gray-500">
     Escorob &copy; 2026
   </footer>
+
   <script src="script.js" defer></script>
 </body>
 </html>
